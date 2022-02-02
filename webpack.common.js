@@ -38,6 +38,10 @@ module.exports = {
         test: /\.svg$/,
         loader: 'url-loader',
       },
+      {
+        test: /\.svg/,
+        type: 'asset/resource'
+      },
     ],
   },
   plugins: [
